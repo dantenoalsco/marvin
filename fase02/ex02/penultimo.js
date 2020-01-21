@@ -1,3 +1,3 @@
 function penultimo(str) {
-    return str[length - 2];
+    return str[str.length - 2];
 }
