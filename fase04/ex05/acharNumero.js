@@ -1,3 +1,3 @@
-function tempo() {
+function acharNumero() {
     
 }
