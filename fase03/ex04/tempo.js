@@ -16,3 +16,4 @@ function tempo(t1, t2, unidade) {
             return Math.round(diff / ano);
     }
 }
+
