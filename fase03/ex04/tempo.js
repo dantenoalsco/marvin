@@ -7,13 +7,11 @@ function tempo(t1, t2, unidade) {
     const mes = dias * 30;
     const ano = mes * 12;
     
-    switch (unidade) {
-        case 'dia':
+    if (unidade === 'dia')
             return Math.round(diff / dias);
-        case 'mês':
+    if (unidade ==='mês')
             return Math.round(diff / mes);
-        case 'ano':
+    if (unidade === 'ano')
             return Math.round(diff / ano);
-    }
 }
 
