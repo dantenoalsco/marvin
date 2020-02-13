@@ -6,7 +6,7 @@ function fizzbuzz(min, max) {
         } else if (i % 5 === 0) {
             console.log(i + " Buzz");
         } else if (i % 3 === 0) {
-            console.log(1 + " Fizz");
+            console.log(i + " Fizz");
         } else {
             console.log(i);
         }
